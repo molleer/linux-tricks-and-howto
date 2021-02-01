@@ -9,3 +9,9 @@ Installing `alsa-utils` allows you to use ´alsamixer´ in the command line and 
 
 ### Wireless
 Install `NetworkManager`, enable and start NetworkManager with `systemctl` and connect to a network with the interface by typing ´nmtui´ in the command line. For more advanced connections, install and use ´nm-connection-editor´ (require window manager).
+
+### Disable beep
+Create the file `/etc/profile.d/disable-beep.sh` and insert the following
+```
+  setterm -blength 0
+```
