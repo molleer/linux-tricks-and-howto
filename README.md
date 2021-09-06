@@ -15,3 +15,9 @@ Create the file `/etc/profile.d/disable-beep.sh` and insert the following
 ```
   setterm -blength 0
 ```
+
+### xrandr
+Set frame rate
+```
+xrandr --output DP-1 --mode 1920x1080 --rate 144
+```
