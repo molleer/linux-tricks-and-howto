@@ -28,3 +28,7 @@ For changing multi screen settings, use `arandr` (a GUI for `xrandr`).
 ```
 nvidia-xconfig
 ```
+
+### Setup scripts
+
+https://github.com/ChrisTitusTech/ArchTitus
