@@ -32,3 +32,15 @@ nvidia-xconfig
 ### Setup scripts
 
 https://github.com/ChrisTitusTech/ArchTitus
+
+### VSCode OSS
+#### Enable vscode marketplace in Code OSS
+```
+yay -S code-marketplace
+``` 
+
+#### Remote SSH
+Run VSCode with the following command in order to connect to remote host via ssh with VSCode
+```
+code --enable-proposed-api ms-vscode-remote.remote-ssh
+``` 
