@@ -43,4 +43,14 @@ yay -S code-marketplace
 Run VSCode with the following command in order to connect to remote host via ssh with VSCode
 ```
 code --enable-proposed-api ms-vscode-remote.remote-ssh
-``` 
+```
+
+### Docker
+```
+sudo pacman -S docker docker-compose
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+sudo systemctl enable docker
+sudo systemctl start docker
+```
