@@ -1,6 +1,23 @@
 # linux-tricks-and-howto
 A collection of tricks and good packages for linux
 
+### Yay
+Install
+```
+sudo pacman -S --needed base-devel git
+cd /opt
+sudo mkdir source
+sudo chown $USER ./source
+cd source
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+Usage
+```
+yay -S <package name to be installed>
+```
+
 ### [greetd](https://wiki.archlinux.org/index.php/Greetd)
 Allows you start any application after login
 
